@@ -9,7 +9,7 @@ const dotenv = require('dotenv').config()
 require('./config/connection');
 
 
-// Load environment variables from .env file
+// Load environment variables from .env filed
 
 app.use(
   cors({
@@ -36,5 +36,5 @@ app.use('/', client);
 app.use('/admin', admin);
 
 server.listen(port, () => {
-    console.log(`Server successfully running on port ${port}`);
+  console.log(`Server successfully running on port ${port}`);
 });
