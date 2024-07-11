@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app",
-    "build": "[my-framework] build --output public"
+    "build": "node run build --output public"
   },
   "author": "",
   "license": "ISC",
