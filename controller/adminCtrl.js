@@ -31,7 +31,7 @@ console.log(process.env.adminEmail,'oo',req.body);
         return res.status(500).render("admin/adminError", { admin: true });
     }
 }
-
+//add product's
 const addProduct = async (req, res) => {
     try {
         const { productName, category, subCategory, price, quantity, availableHub, productImageUrl, unit, itemBehaviour,brand,coin,coinType,description ,coinType100g,coin100g,coinType1kg,coin1kg,coinType500g,coin500g,coinType250g,coin250g,} = req.body;
