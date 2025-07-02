@@ -12,7 +12,7 @@ const moment = require('moment');
 const jwt = require("jsonwebtoken");
 
 var reqOtp;
-
+//user Login
 const login = async (req, res) => {
   try {
     console.log(req,'oo');
