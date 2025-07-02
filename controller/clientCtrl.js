@@ -45,6 +45,8 @@ const login = async (req, res) => {
   }
 };
 
+
+// otpverification
 const otpVarification = async (req, res) => {
   const { inputValue, otp, mailOrPhone } = req.body;
 
