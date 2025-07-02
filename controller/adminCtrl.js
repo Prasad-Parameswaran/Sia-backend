@@ -10,7 +10,7 @@ const    jwt  =require('jsonwebtoken');
 const Cart = require("../model/cartModel");
 
 
-
+//admin login 
 const adminLog = async (req, res) => {
     try {
         const { email, password } = req.body;
